@@ -1,0 +1,168 @@
+/* * * * * * Navigation * * * * * */
+
+    .navigation {
+        border:1px solid #ccc;
+        border-width:1px 0;
+        list-style:none;
+        margin:0;
+        padding:0;
+        text-align:center;
+        background-color: #000000;
+    }
+    .navigation li{
+        display:inline;
+    }
+    .navigation a{
+        display: inline-block;
+        padding: 10px 57px 10px 57px;
+        text-decoration: none;
+        letter-spacing: 3.0px;
+        font-size: 20px;
+        font-family:"Avenir","HelveticaNeue-Medium";
+        color: #FFF;
+    }
+
+    .navigation a:hover {
+        color: #8C0A14; 
+    }
+
+
+/* * * * * * * Homepage * * * * * * */
+
+    h3 {
+        font-family:"Avenir","HelveticaNeue-Medium";
+        font-size: 60px;
+
+    }
+
+    .hometext {
+        font-family:"Avenir","HelveticaNeue-Medium";
+        letter-spacing: 1.5px;
+        line-height: 30px;
+        margin-top: 82px;
+        text-align: justify;
+    }
+
+     .main_home { /*635px*/
+        float: left;
+        width: 49.612245%;
+        padding: 4.061224% 1.530612%;
+        min-height: auto;
+    }
+
+    .sidebar_home { /*345px*/
+        float: left;
+        width: 40.612245%;
+        padding: 4.061224% 0.530612%;
+    }
+
+
+
+/* * * * * * * Clients * * * * * * */
+
+    .mainclient {
+        margin: 10px;
+        padding: 10px;
+    }
+
+    .clienttext {
+        font-family:"Avenir","HelveticaNeue-Medium";
+        letter-spacing: 1.5px;
+    }
+	
+	  td {
+		 font-family:"Avenir","HelveticaNeue-Medium"; 
+		font-size:18;
+		 color:#000000 
+	}
+     th,table {
+		  font-family:"Avenir","HelveticaNeue-Medium"; 
+		  font-size:18;
+		  border-collapse: collapse;
+	}
+	
+
+	
+/* * * * * * * Employee * * * * * * */
+
+    .employeetext {
+        font-size: 20px;
+        font-family:"Avenir","HelveticaNeue-Medium";
+    }
+
+/* * * * * * * Case * * * * * * */
+
+    .casetext {
+        margin: 10px;
+        padding: 10px;
+        font-family:"Avenir","HelveticaNeue-Medium";
+        letter-spacing: 1.5px;
+        text-align: justify;
+    }
+
+    .casetextside {
+        font-family:"Avenir","HelveticaNeue-Medium";
+        letter-spacing: 1.5px;
+        text-align: justify;
+    }
+
+    .main_case { /*635px*/
+        float: left;
+        width: 49.612245%;
+        padding: 4.061224% 1.530612%;
+        min-height: auto;
+    }
+
+    .sidebar_case { /*345px*/
+        float: left;
+        width: 40.612245%;
+        padding: 4.061224% 0.530612%;
+    }
+
+
+
+/* * * * * Aside and Sidebar * * * * * */
+
+
+    .main { /*635px*/
+        float:left;
+        width: 58.673469387%;
+        padding: 3.061224489%; /*60px*/
+        min-height: auto;
+    }
+
+    .sidebar { /*345px*/
+        float:left;
+        width: 30.612244898%;
+        padding: 3.061224489% 1.530612244% 3.061224489% 3.061224489%; /*45px*/
+
+    }
+
+
+/* * * * * Responsive * * * * * */
+
+     img, iframe {
+          max-width: 100%;
+          height: auto;
+    }
+
+/* * * * * Footer * * * * * * */
+
+    .site-footer {
+        clear: both;
+        min-height: 200px;
+        background: #000000;
+        border-top: 10px solid #FFF;
+        text-align: center;
+        list-style:none;
+    }
+
+    .site-footer li{
+        display:inline;
+        font-family:"Avenir","HelveticaNeue-Medium";
+        color: #FFF;
+        font-size: 10px;
+        padding: 0px 12px 0px 12px;
+        margin: 0px 45px 0px 9px;
+        letter-spacing: 2.0px;
+    }

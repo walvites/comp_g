@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<?xml-stylesheet type="text/xsl" href="supplyquery.xslt"?>
+<xsql:query connection="group5" xmlns:xsql="urn:oracle-xsql">
+
+SELECT supp_id, stock_model_no, supplies_quantity
+FROM supplies
+WHERE supplies.supp_id = '{@partsid}'
+
+</xsql:query>

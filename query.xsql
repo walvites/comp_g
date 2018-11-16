@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<?xml-stylesheet type="text/xsl" href="query.xslt"?>
+<xsql:query connection="group5" xmlns:xsql="urn:oracle-xsql">
+
+SELECT cus_fname, cus_lname, ord_date, orders.ord_num, vehicle_status, ord_del_date, ord_courier, ord_del_sig
+FROM vehicle, orders, customer
+WHERE orders.ord_num = vehicle.ord_num 
+AND orders.cus_id = customer.cus_id
+AND customer.cus_lname = '{@lastname}'
+AND customer.cus_id = '{@customerid}'
+ 
+
+</xsql:query>

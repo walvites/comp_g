@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<?xml-stylesheet type="text/xsl" href="tabular.xslt"?>
+<xsql:query connection="group5" xmlns:xsql="urn:oracle-xsql">
+
+select stock_model_no, stock_part_name, stock_freq, stock_count 
+from stock
+where stock_avail = 0
+ 
+
+</xsql:query>
